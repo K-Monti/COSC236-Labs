@@ -7,6 +7,7 @@ public class Order {
     
     public void addItem(MenuItem item) {
         items.add(item);
+        System.out.println("Item " + item.getName() + " added"); // Added logging to print out item addition
     }
     
     public double calculateTotal() {
