@@ -8,7 +8,7 @@ public class Customer {
         this.order = new Order();  // Collaborating with Order class
     }
 
-    public void addMenuItemToOrder(MenuItem item) {
+    public void addToOrder(MenuItem item) { //Changed method name, and updated the method calls in RestaurantApp.java
         order.addItem(item);  // Collaborating with Order to add items
     }
 
